@@ -13,9 +13,9 @@ st.write("# Warframe Market Farmer! 👨‍🌾")
 items = get_items()
 
 if items['time']=='failed':
-    st.write(f"➖ ⏱️ **Get Items Failed** ➖ *️⃣ **Status Code: {items[items]}** ➖ 👨‍💼 **By: DEARFAD** ➖")
+    st.write(f"➖ ⏱️ **Get Items Failed** ➖ *️⃣ **Status Code: {items[items]}** ➖ 👨‍💼 **By: GUXING** ➖")
 else:
-    st.write(f"➖ ⏱️ **{items['time']}** ➖ *️⃣ **Total: {items['items'].shape[0]}** ➖ 👨‍💼 **By: DEARFAD** ➖")
+    st.write(f"➖ ⏱️ **{items['time']}** ➖ *️⃣ **Total: {items['items'].shape[0]}** ➖ 👨‍💼 **By: GUXING** ➖")
 
 search_col, empty_col, info_col = st.columns([5,1,8])
 
